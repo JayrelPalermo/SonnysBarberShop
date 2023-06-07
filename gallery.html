@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sonny's Barber Shop</title>
+  <style>
+
+    :root {
+      --indian-yellow: #E3A857;
+    }
+    
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    
+    header {
+      background-color: #333;
+      padding: 20px;
+      color: #fff;
+      text-align: center;
+    }
+    
+    h1 {
+      font-size: 24px;
+      font-weight: bold;
+      color: var(--indian-yellow);
+      margin: 0;
+    }
+    
+    nav {
+      margin-top: 10px;
+    }
+    
+    nav a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: var(--indian-yellow);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 10px;
+      margin-right: 10px;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+    
+    nav a:hover {
+      background-color: #FFD700;
+      transform: scale(1.05);
+    }
+    
+    .gallery {
+      flex: 1;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; /* Center horizontally */
+      align-items: center; /* Center vertically */
+      padding: 20px;
+    }
+    .gallery h3 {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .gallery img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      margin-bottom: 20px;
+      margin-right: 20px; /* Add right margin for spacing */
+      border-radius: 10px; /* Rounded square corners */
+      transition: transform 0.3s ease; /* Add smooth transition */
+    }
+    
+    .gallery img:hover {
+      transform: scale(1.05); /* Add hover effect */
+    }
+    
+    .gallery-center {
+      text-align: center;
+    }
+    
+    p {
+      color: #777;
+    }
+    
+    footer {
+      background-color: #333;
+      padding: 20px;
+      color: #fff;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sonny's Barber Shop</h1>
+    <nav>
+      <a href="index.html">Home</a>
+    </nav>
+  </header>
+
+  <div class="gallery-center">
+  <h2>Gallery</h2>
+  <p>Welcome to our gallery! Take a look at some of the amazing hairstyles we've created.</p>
+  </div>
+  
+  <div class="gallery" id="hair-cutting-section">
+    <div class="gallery-center">
+      <h3>Hair Cutting Style</h3><br>
+      <img src="./assets/images/gallery-1.jpg" alt="Image 1">
+      <img src="./assets/images/gallery-4.jpg" alt="Image 2">
+      <img src="./assets/images/gallery-3.jpg" alt="Image 3">
+  </div>
+
+    <div class="gallery-center" id="body-treatments">
+      <h3>Body Treatments</h3><br>
+      <img src="./assets/images/mass2.jpg" alt="Image 4">
+      <img src="./assets/images/mass.jpg" alt="Image 5">
+      <img src="./assets/images/mass 1.jpg" alt="Image 6">
+    </div>
+
+    <div class="gallery-center" id="stylist-shaving">
+      <h3>Stylist Shaving</h3><br>
+      <img src="./assets/images/pricing-bg.jpg" alt="Image 7">
+      <img src="./assets/images/gallery-2.jpg" alt="Image 8">
+      <img src="./assets/images/shave.jpg" alt="Image 9">
+    </div>
+
+    <div class="gallery-center" id="stylist-shaving">
+      <h3>More Photos</h3><br>
+      <img src="./assets/images/PSX_20230607_114201.jpg" alt="Image 7">
+      <img src="./assets/images/PSX_20230607_114218.jpg" alt="Image 8">
+      <img src="./assets/images/PSX_20230607_114230.jpg" alt="Image 9">
+
+      <img src="./assets/images/PSX_20230607_114244.jpg" alt="Image 7">
+      <img src="./assets/images/PSX_20230607_114258.jpg" alt="Image 8">
+      <img src="./assets/images/PSX_20230607_114314.jpg" alt="Image 9">
+      <img src="./assets/images/PSX_20230607_114327.jpg" alt="Image 7">
+      <img src="./assets/images/PSX_20230607_114349.jpg" alt="Image 8">
+      <img src="./assets/images/PSX_20230607_114400.jpg" alt="Image 9">
+      <img src="./assets/images/PSX_20230607_114412.jpg" alt="Image 7">
+      <img src="./assets/images/PSX_20230607_114428.jpg" alt="Image 8">
+      <img src="./assets/images/PSX_20230607_114437.jpg" alt="Image 9">
+
+    </div>
+  </div>
+
+  
+  <footer>
+    &copy; 2023 Sonny's Barber Shop. All rights reserved.
+  </footer>
+</body>
+</html>
